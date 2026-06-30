@@ -1,0 +1,58 @@
+<?php
+
+// Numeric Array (Monday to Saturday)
+echo "<h3>Numeric Array</h3>";
+$days = array("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+
+
+echo "<br>";
+print_r($days);
+echo "<br>";
+
+
+// Associative Array (Months with Total Days)
+echo "<h3>Associative Array</h3>";
+$months = array(
+    "January"=>31,
+    "February"=>28,
+    "March"=>31,
+    "April"=>30,
+    "May"=>31,
+    "June"=>30,
+    "July"=>31,
+    "August"=>31,
+    "September"=>30,
+    "October"=>31,
+    "November"=>30,
+    "December"=>31
+);
+
+
+echo "<br>";
+print_r($months);
+echo "<br>";
+
+
+// Multidimensional Array (Laptop Details)
+echo "<h3>Multidimensional Array</h3>";
+$laptop = array(
+    "Dell"=>array(
+        "Model"=>"Inspiron 15",
+        "Price"=>55000
+    ),
+    "HP"=>array(
+        "Model"=>"Pavilion 14",
+        "Price"=>60000
+    ),
+    "Lenovo"=>array(
+        "Model"=>"ThinkPad X1",
+        "Price"=>75000
+    )
+);
+
+
+echo "<br>";
+print_r($laptop);
+echo "<br>";
+
+?>
